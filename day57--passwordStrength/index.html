@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container box">
+        <form action="" id="form" class="form">
+          <h2>Create an account</h2>
+
+          
+
+          <div class="form-control">
+            <label for="">Password</label>
+            <input id="password" type="password" placeholder="Enter Password">
+            <small>Error Message</small>
+
+            <!-- Eye Icon -->
+            <span class="show-pass">
+              <i class="fas fa-eye" id="eye"></i>
+            </span>
+
+            <!-- progress bar -->
+
+            <div class="progress">
+              <div class="progress-bar" id="password-strength">
+
+              </div>
+            </div>
+
+            <!-- list -->
+            <ul class="form-list">
+              <li>
+                <span class="low-uppercase">
+                  <i class="fas fa-circle"></i>
+                  &nbsp; Lower and Uppercase
+                </span>
+              </li>
+              <li>
+                <span class="number">
+                  <i class="fas fa-circle"></i>
+                  &nbsp; Number (0-9)
+                </span>
+              </li>
+              <li>
+                <span class="special-char">
+                  <i class="fas fa-circle"></i>
+                  &nbsp; Special Chararcter (!@#$%^&*)
+                </span>
+              </li>
+              <li>
+                <span class="eight-char">
+                  <i class="fas fa-circle"></i>
+                  &nbsp; At least 8 character
+                </span>
+              </li>
+            </ul>
+
+          </div>
+
+          
+          <button>Submit</button>
+
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
